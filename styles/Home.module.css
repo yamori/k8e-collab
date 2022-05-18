@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url(/picsum-seed_kindzerske.jpg) no-repeat center;
 }
 
 .footer {
@@ -29,14 +30,14 @@
 }
 
 .title a {
-  color: #0070f3;
-  text-decoration: none;
+  color: #fff;
+  text-shadow: 5px 5px 15px #000;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-shadow: 5px 5px 15px #222;
 }
 
 .title {
