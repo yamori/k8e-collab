@@ -12,11 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <a href="https://github.com/yamori/k8e-collab">
-          <h1 className={styles.title}>
-            K8E Collab
-          </h1>
-        </a>
+        <h1 className={styles.title}>
+          <a href="https://github.com/yamori/k8e-collab">K8E Collab</a>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
