@@ -3,19 +3,13 @@
 
 ## Getting started
 
-First, clone the repo locally. 
-
-```bash
-git clone https://github.com/yamori/k8e-collab.git
-```
-
-Next, install the project's dependancies.
+First, install the project's dependancies.
 
 ```bash
 npm install
 ```
 
-Finally, run the development server:
+Then, run the development server.
 
 ```bash
 npm run dev
@@ -25,6 +19,17 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Optionally, to run tests locally.
+
+```bash
+npm run test
+```
+
+Or run them in watch mode.
+
+```bash
+npm run test-watch
+```
 
 ## Contributing
 
