@@ -14,3 +14,13 @@ describe('Home', () => {
     expect(heading).toBeInTheDocument()
   })
 })
+
+describe('Home', () => {
+  it('renders k8collab heading', () => {
+    render(<Home />)
+
+    // this text from pages/api/profile.js, and won't be present in jest test
+    // due to the client fetching this data, 
+    expect(() => screen.getByText('FEnd, ultimately with dynamic data fetched from Client side')).toThrow();
+  })
+})
